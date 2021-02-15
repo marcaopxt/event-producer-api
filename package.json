@@ -1,0 +1,9 @@
+{
+    "name": "terraform-repo",
+    "private": "false",
+    "devDependencies": {
+        "@semantic-release/github": "^7.2.0"
+    },
+    "repository": "github:marcaopxt/order-publisher-api",
+    "version": "0.0.1"
+}
