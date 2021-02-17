@@ -31,6 +31,8 @@ pipeline {
 
                         sh "npm install semantic-release -y"
                         sh "ndx semantic-release"
+                        sh "git add package.json"
+                        sh "git commit -m "
                         
                    }
             	}

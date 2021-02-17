@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>order-publisher</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>order-publisher</name>
 	<description>Order publisher</description>
 	<properties>
@@ -99,6 +99,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>order-publisher-api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
